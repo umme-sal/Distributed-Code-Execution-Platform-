@@ -5,9 +5,11 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class AIRequest {
+public class ProjectRequest
+{
+    private String title;
 
     private String language;
 
-    private String code;
+    private String sourceCode;
 }

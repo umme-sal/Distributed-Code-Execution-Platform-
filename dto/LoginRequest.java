@@ -5,9 +5,8 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class AIRequest {
-
-    private String language;
-
-    private String code;
+public class LoginRequest
+{
+    private String email;
+    private String password;
 }

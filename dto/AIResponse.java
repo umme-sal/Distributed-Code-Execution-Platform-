@@ -1,13 +1,13 @@
 package com.example.project.codeexecutor.dto;
 
+import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
 
 @Getter
 @Setter
-public class AIRequest {
+@AllArgsConstructor
+public class AIResponse {
 
-    private String language;
-
-    private String code;
+    private String response;
 }
